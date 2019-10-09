@@ -86,6 +86,8 @@
       {{ end }}
     {{end}}
 
+    
+    <!--
     {{ if gt $count $items_count }}
     <div class="see-all">
       <a href="{{ $archive_page.RelPermalink }}">
@@ -94,6 +96,16 @@
       </a>
     </div>
     {{ end }}
+    -->
+
+
+    <div class="see-all">
+      <a href="{{ $archive_page.RelPermalink }}">
+        <!--{{ i18n $i18n | default "See all" }}-->
+        See all
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
 
   </div>
 </div>

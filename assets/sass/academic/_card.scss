@@ -37,14 +37,16 @@
 .card .card-image {
   display: block;
   position: relative;
-  min-height: 100px;
+  height: 239.1px;
 }
 
 .card h4 {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-weight: 700;
   line-height: 1.5;
   text-transform: uppercase;
+  height: 40px;
+  margin-top: 5px;
 }
 
 .card h4 a {

@@ -3,7 +3,7 @@
  **************************************************/
 
 .view-list-item {
-  margin-bottom: 1rem;
+  margin-bottom: 0.6rem;
 }
 
 .pub-icon {
@@ -17,11 +17,13 @@
 }
 
 .pub-list-item .pub-abstract {
-  font-size: 1rem;
+  font-size: 0.8rem;
+  line-height: 100%;
 }
 
 .pub-list-item .btn-links {
-  padding-top: 10px;
+  padding-top: 5px;
+  line-height: 100%;
 }
 
 /*************************************************
